@@ -1,0 +1,21 @@
+{
+    "name": "gabrielcuesta/boilerplate",
+    "description": "Boilerplate plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Gabriel",
+            "email": "gabicuesta@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+      "psr-4": {"Inc\\": "./inc"}
+    },
+    "scripts": {
+		  "test": "phpunit"
+	  }
+}

@@ -1,0 +1,104 @@
+html {
+    font-family: "Helvetica Neue", sans-serif;
+    width: 100%;
+    color: #666666;
+    /* text-align: center; */
+}
+
+.bg0{
+  background: #CCC;
+}
+
+.bg1{
+  background: #EEE;
+}
+
+.popup-overlay {
+    /*Hides pop-up when there is no "active" class*/
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    left: 25%;
+    top: 20;
+}
+
+.popup-overlay.active {
+    /*displays pop-up when "active" class is present*/
+    visibility: visible;
+    text-align: center;
+}
+
+.popup-content {
+    /*Hides pop-up content when there is no "active" class */
+    visibility: hidden;
+}
+
+.popup-content.active {
+    /*Shows pop-up content when "active" class is present */
+    visibility: visible;
+    border: 3px solid #000;
+}
+
+.popup-bg {
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.3;
+  visibility: hidden;
+}
+
+.popup-bg.active {
+    visibility: visible;
+}
+
+.loading {
+  text-align:center;
+  width: 100%;
+  display: none;
+}
+
+.loading.active {
+  display: block;
+}
+
+.userData {
+  display: none;
+}
+
+.userData.active {
+  display: block;
+}
+
+button {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 1rem;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #666666;
+}
+
+button:hover {
+    border: 1px solid #666666;
+    background: #666666;
+    color: #ffffff;
+}
+
+table thead {
+    background: black;
+    color: white;
+}
+
+table td {
+    padding: 5px 5px 5px 5px;
+}
+
+a.userInfoLink, a.userInfoLink:visited {
+  color: black;
+  text-decoration: none;
+}
